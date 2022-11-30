@@ -1,3 +1,10 @@
+
+main() {
+  List<int>data=[8,6,2,5,4];
+  InsertionSort s1=InsertionSort();
+  s1.insertionSort(data);
+  print(data.toString());
+}
 //class insertion sort
 class InsertionSort{
   void insertionSort(List<int>list){
@@ -12,10 +19,4 @@ class InsertionSort{
       list[j+1]=k;
     }
   }
-}
-main() {
-  // List<int>data=[8,6,2,5,4];
-  // InsertionSort s1=InsertionSort();
-  // s1.insertionSort(data);
-  // print(data.toString());
 }
